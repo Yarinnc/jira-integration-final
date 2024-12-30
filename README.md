@@ -88,5 +88,18 @@ To set up and run this application, ensure you have the following:
 4. Select your JIRA project using the project ID.
 5. Create a task by filling in the required details in the form.
 
+---
+## Screenshots
+Login
+![Login Screen](login.png)
+
+Ticket Creation
+![Task Creation Screen](creating_ticket.png)
+
+Selecting User
+![User selecting dropdown](selecting_user.png)
+
+Getting Project Id
+![Getting Project Id](getting_projectId.png)
 
 
