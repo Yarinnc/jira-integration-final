@@ -21,7 +21,7 @@ To set up and run this application, ensure you have the following:
 1. **Create a `.env` file in the backend folder:**
    - Add the following line to the `.env` file:
      ```env
-     PROJECT_NAME=<your-project-name>
+     PROJECT_NAME=<your-jira-project-name>
      ```
    - Replace `<your-jira-project-name>` with the name of your JIRA project.
 
