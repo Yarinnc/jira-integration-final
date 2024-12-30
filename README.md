@@ -23,7 +23,7 @@ To set up and run this application, ensure you have the following:
      ```env
      PROJECT_NAME=<your-project-name>
      ```
-   - Replace `<your-project-name>` with the name of your JIRA project.
+   - Replace `<your-jira-project-name>` with the name of your JIRA project.
 
 2. **Generate an API Key:**
    - Visit [JIRA API Token Management](https://id.atlassian.com/manage-profile/security/api-tokens).
@@ -45,6 +45,10 @@ To set up and run this application, ensure you have the following:
      ```bash
      npm install
      ```
+     - Run the server
+     ```bash
+      npm run dev
+      ```
 
 ---
 
@@ -65,7 +69,7 @@ To set up and run this application, ensure you have the following:
    npm install
    ```
 
-4. Start both the frontend and backend servers:
+4. Start both the frontend server:
    ```bash
    npm run dev
    ```
