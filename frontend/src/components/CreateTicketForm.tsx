@@ -10,31 +10,7 @@ import {
 import { isEmpty } from 'lodash';
 import OwnerAutocomplete from './OwnerAutocomplete';
 import { createIssue } from '../api/jiraApi';
-
-interface JiraUser {
-  accountId: string;
-  avatarUrls: {
-    '48x48': string;
-    '24x24': string;
-    '16x16': string;
-    '32x32': string;
-  };
-  displayName: string;
-}
-
-type FormData = {
-  projectId: string;
-  title: string;
-  description: string;
-  occurrences: string;
-  owner: string;
-};
-
-type InputField = {
-  name: keyof FormData;
-  label: string;
-  type: string;
-};
+import { FormData, InputField, JiraUser } from '../types/types';
 
 const CreateTicketForm: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);

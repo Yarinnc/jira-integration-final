@@ -1,17 +1,6 @@
 import axios from 'axios';
-
-const API_BASE_URL = 'http://localhost:3000/jira';
-
-export interface JiraUser {
-  accountId: string;
-  avatarUrls: {
-    '48x48': string;
-    '24x24': string;
-    '16x16': string;
-    '32x32': string;
-  };
-  displayName: string;
-}
+import { JiraUser } from '../types/types';
+import { API_BASE_URL } from '../config';
 
 export const authenticateUser = async (
   email: string,

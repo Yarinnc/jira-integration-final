@@ -1,8 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { TextField, Autocomplete, Box } from '@mui/material';
 import { fetchUsers } from '../api/jiraApi';
-
-import { JiraUser } from '../api/jiraApi';
+import { JiraUser } from '../types/types';
 
 interface OwnerAutocompleteProps {
   onError: React.Dispatch<React.SetStateAction<string>>;
